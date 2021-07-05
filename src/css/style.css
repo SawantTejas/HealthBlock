@@ -10,6 +10,7 @@
 
 #b1,#c1,#b2,#c2{
   display: none;
+
 }
 
 
@@ -111,32 +112,20 @@ color: black;
         font-size: 1.1rem; padding-top: 20px; }
 
 
-  .HIW_Sec{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/001/072/376/original/network-connections-on-white-background-vector.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 .HIW_Sec h1{
     background-color: white;
     font-size: 60px;
     padding-top: 100px;
-    text-align: center;
+    padding: 15px;
+    text-align: left;
   }
-.HIW_Sec h2{
-  padding: 5px;
-  text-align: center;
-  font-size: 30px;
-}
   .HIW_Sec p{
-    padding: 15px 300px;
+    padding: 15px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
   }
-  footer{
-    text-align: right;
-    padding: 10px 50px;
-    padding-bottom: 50px;
-  }
+
 
 .logreg{
   background-image: url(https://static.vecteezy.com/system/resources/previews/001/072/376/original/network-connections-on-white-background-vector.jpg);
@@ -207,4 +196,30 @@ th{
   border-image: url(../images/border.png) 30 stretch;
   width:800px;
   padding:35px;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+
+}
+tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+
+}
+th{
+  background-color: #E4F2FF;
+}
+tr:nth-of-type(even) td{
+  background-color: lighten(#4ECDC4, 35%);
+}
+.book{
+  display: flex;
+}
+.lef,.righ{
+  flex = 1;
 }
