@@ -1,22 +1,28 @@
 {
-  "name": "eth-marketplace",
-  "version": "0.1.0",
-  "description": "An Ethereum Marketplace",
-  "author": "gregory@dappuniversity.com",
-  "dependencies": {
-    "bootstrap": "4.3.1",
-    "chai": "4.2.0",
-    "crypto-js": "^4.0.0",
-    "ipfs-http-client": "^49.0.4",
-    "jquery": "^3.6.0",
-    "lite-server": "^2.6.1",
-    "truffle": "5.0.5",
-    "web3": "1.0.0-beta.55"
+  "name": "healthblock",
+  "version": "1.0.0",
+  "description": "A Decentralized EHR Storage and Access System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SawantTejas/HealthBlock.git"
+  },
+  "author": "tejas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SawantTejas/HealthBlock/issues"
+  },
+  "homepage": "https://github.com/SawantTejas/HealthBlock#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "browserify": "^17.0.0",
+    "ipfs-http-client": "^52.0.0",
+    "jquery": "^3.6.0",
+    "live-server": "^1.2.1",
+    "truffle": "^5.4.6",
+    "web3": "^1.5.1"
+  }
 }
