@@ -1,7 +1,7 @@
 
 var $ = require("jquery");
 const Web3 = require('web3');
-const CryptoJS = require('crypto-js');
+//const CryptoJS = require('crypto-js');
 const ipfsClient = require("ipfs-http-client");
 const ipfs = new ipfsClient({host: 'ipfs.infura.io', port: 5001, protocol:'https'});
 var contract;
